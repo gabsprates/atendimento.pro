@@ -1,0 +1,117 @@
+html, body{
+	position: relative;
+	padding: 0;
+	margin: 0;
+	background-color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+	height: 100%;
+	width: 100%;
+}
+
+/* Erros */
+.error{
+	position: absolute;
+	top: 5%;
+	left: 10%;
+}
+.error ul{
+	margin: 0;
+	padding: 0;
+	color: #900;
+	list-style: none;
+	font-weight: bold;
+}
+.error ul li{
+	margin: 0;
+	padding: 0;
+}
+
+/* Form */
+fieldset{
+	float:left;
+	width:250px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	border: 2px solid #999;
+	margin:-150px 0 0 -141px;
+	height:250px;
+	padding:10px 15px;
+	border-radius: 8px;
+	background-color: #FFF;
+	box-shadow: 0 0 50px 2px #bbb;
+}
+legend{
+	padding:5px 15px;
+	margin:0 15px;
+	font-size:16px;
+	color:#005588;
+	font-weight:bold;
+	background-color: #FFF;
+	border-radius: 8px;
+	box-shadow: 0px -5px 20px -10px #bbb;
+}
+form{
+	padding: 0;
+	margin: 0;
+}
+fieldset p{
+	margin:0 0 11px 0;
+	position:relative;
+}
+fieldset p span{
+	display:block;
+	width:100%;
+	font-size:14px;
+	color:#272727;
+	font-weight:bold;	
+}
+fieldset p input, fieldset p select{
+	display: block;
+	padding: 5px;
+	border: 1px solid #999;
+	width: 235px;
+	margin-bottom: 10px;
+}
+fieldset p select{
+	width: 246px;
+	background-color: #fff;
+}
+fieldset p input:focus{
+    border: 1px solid #CC6600;
+    background-color: #FFFFD5;
+	outline: none;
+}
+form input[type=submit]{
+	display: block;
+	padding: 7px 12px 7px 12px;
+	border: 1px solid #999;
+	outline: #DDD solid thin;
+	font-weight: bold;
+	margin-top: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	cursor: pointer;
+	width:85px;
+	background-color: #FFF;
+}
+form input[type=submit]:hover{
+	border: 1px solid #666;
+	outline: #CCC solid thin;
+	background-color: #EEE;
+}
+
+#bopim_cli{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:100%;
+	padding:4px 0 3px;
+	border-top: 1px double #666;
+	background-color: #ddd;
+}
+#bopim_cli > a.left{
+	margin:0 0 0 15px;
+}

@@ -1,0 +1,24 @@
+AJUDA
+
+1. Instalação
+2. Funcionamento
+	2.1 - Atendimentos
+	2.2 - Atendentes
+
+1 - INSTALAÇÃO
+Para efetuar a instalação do sistema em seu site, basta colar o código, que aparece no topo do painel administrador, no HTML do seu site.
+
+2 - FUNCIONAMENTO
+Uma vez instalado em seu site, o sistema lhe permite atender clientes de forma rápida e interativa.
+Sempre que houver um atendente online, aparecerá um botão de "atendimento online" em seu site.
+É de extrema importância clicar no botão "[ sair ]" para efetuar logout do sistema, pois sem isso, sempre aparecerá o botão de atendimento em seu site.
+
+2.1 - ATENDIMENTOS
+Todas as vezes que houver um novo chamado, você ouvirá um sinal sonoro e aparecerá na lista de atendimentos, um botão vermelho com o nome da pessoa.
+Ao clicar nesse botão, abrirá uma janela para o atendimento ser feito. O botão que era vermelho mudará de cor para amarelo. Isso indicará que aquele atendimento está em andamento.
+Ao finalizar um atendimento, clique no botão "Finalizar" ao lado do nome da pessoa, o botão ficará verde.
+
+2.2 - ATENDENTES
+Ao se cadastrar no nosso sistema, automaticamente é gerado um atendente administrador em sua conta.
+Você poderá criar novos atendentes em sua conta de acordo com o plano contratado.
+O usuário administrador poderá ver o histórico de atendimentos, criar novos atendentes e excluí-los e modificar os dados de cadastro.
