@@ -2,4 +2,5 @@ error_log
 setup/db.php
 pagamentos/PagSeguroRetornoConfig.php
 teste.php
-logos/
+logos/*
+!logos/.gitkeep
